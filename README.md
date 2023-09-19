@@ -13,39 +13,39 @@ http://localhost:8080/
 http://localhost:8080/ead-authuser/
 
 #### registerUser -> auth/signup
-### getAllUsers -> users
-### getOneUser -> users/userId
-### updateUser -> users/userId
-### deleteUser -> users/userId
-### updateImage -> users/userId/image
-### updatePassword -> users/userId/password
-### turnUserIntoInstructor-> users/turn-user-into-instructor
+#### getAllUsers -> users
+#### getOneUser -> users/userId
+#### updateUser -> users/userId
+#### deleteUser -> users/userId
+#### updateImage -> users/userId/image
+#### updatePassword -> users/userId/password
+#### turnUserIntoInstructor-> users/turn-user-into-instructor
 
-### getAllCoursesByUser -> user/userId/courses
+#### getAllCoursesByUser -> user/userId/courses
 
 # COURSE
 http://localhost:8080/ead-course/
   
-### saveCourse -> courses
-### getAllCourses -> courses
-### getOneCourse -> courses/courseId
-### updateCourse -> courses/courseId
-### deleteCourse -> courses/courseId
+#### saveCourse -> courses
+#### getAllCourses -> courses
+#### getOneCourse -> courses/courseId
+#### updateCourse -> courses/courseId
+#### deleteCourse -> courses/courseId
 
-### saveModule-> modules/course/courseId
-### getAllModules -> modules/course/courseId
-### getOneModule -> modules/course/courseId/module/moduleId
-### updateModule -> modules/course/courseId/module/moduleId
-### deleteModule -> modules/course/courseId/module/moduleId
+#### saveModule-> modules/course/courseId
+#### getAllModules -> modules/course/courseId
+#### getOneModule -> modules/course/courseId/module/moduleId
+#### updateModule -> modules/course/courseId/module/moduleId
+#### deleteModule -> modules/course/courseId/module/moduleId
 
-### saveLesson-> lessons/module/moduleId
-### getAllLessons -> lessons/module/moduleId
-### getOneLesson -> lessons/module/moduleId/lesson/lessonId
-### updateLesson -> lessons/module/moduleId/lesson/lessonId
-### deleteLesson -> lessons/module/moduleId/lesson/lessonId
+#### saveLesson-> lessons/module/moduleId
+#### getAllLessons -> lessons/module/moduleId
+#### getOneLesson -> lessons/module/moduleId/lesson/lessonId
+#### updateLesson -> lessons/module/moduleId/lesson/lessonId
+#### deleteLesson -> lessons/module/moduleId/lesson/lessonId
 
-### getAllUsersByCourse -> course/courseId/users
-### subscribeUserToCourse -> course/courseId/subscribe-user
+#### getAllUsersByCourse -> course/courseId/users
+#### subscribeUserToCourse -> course/courseId/subscribe-user
 
 ## Requirements to Run Locally
 - Java: Version 11 or higher
