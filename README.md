@@ -23,9 +23,9 @@ http://localhost:8080/ead-authuser/
 - turnUserIntoInstructor-> users/turn-user-into-instructor
 - getAllCoursesByUser -> user/userId/courses
 
-  ### COURSE
-  #### baseUrl
-  http://localhost:8080/ead-course/
+### COURSE
+#### baseUrl
+http://localhost:8080/ead-course/
   
 - saveCourse -> courses
 - getAllCourses -> courses
