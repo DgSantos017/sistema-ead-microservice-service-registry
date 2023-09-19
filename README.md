@@ -14,6 +14,7 @@ http://localhost:8080/
 http://localhost:8080/ead-authuser/
 
 registerUser -> auth/signup
+
 getAllUsers -> users
 getOneUser -> users/userId
 updateUser -> users/userId
