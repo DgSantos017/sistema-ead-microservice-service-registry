@@ -2,6 +2,7 @@
 
 ## baseUrl
 http://localhost:8761/
+![image](https://github.com/DgSantos017/sistema-ead-microservice-service-registry/assets/62971277/251410ed-cc3c-48f8-af75-975ff795575f)
 
 ![image](https://github.com/DgSantos017/sistema-ead-microservice-service-registry/assets/62971277/c3dd5d9b-e75b-440d-8c52-42cf243f5d6a)
 
