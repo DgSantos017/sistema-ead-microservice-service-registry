@@ -32,20 +32,22 @@ http://localhost:8080/ead-course/
 #### updateCourse -> courses/courseId
 #### deleteCourse -> courses/courseId
 
+#### getAllUsersByCourse -> course/courseId/users
+#### subscribeUserToCourse -> course/courseId/subscribe-user
+
+# MODULE
 #### saveModule-> modules/course/courseId
 #### getAllModules -> modules/course/courseId
 #### getOneModule -> modules/course/courseId/module/moduleId
 #### updateModule -> modules/course/courseId/module/moduleId
 #### deleteModule -> modules/course/courseId/module/moduleId
 
+# LESSON
 #### saveLesson-> lessons/module/moduleId
 #### getAllLessons -> lessons/module/moduleId
 #### getOneLesson -> lessons/module/moduleId/lesson/lessonId
 #### updateLesson -> lessons/module/moduleId/lesson/lessonId
 #### deleteLesson -> lessons/module/moduleId/lesson/lessonId
-
-#### getAllUsersByCourse -> course/courseId/users
-#### subscribeUserToCourse -> course/courseId/subscribe-user
 
 ## Requirements to Run Locally
 - Java: Version 11 or higher
