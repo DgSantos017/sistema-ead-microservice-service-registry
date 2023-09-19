@@ -1,6 +1,6 @@
 # System EAD Microservice Service Registry
 
-### baseUrl
+## baseUrl
 http://localhost:8761/
 
 ![image](https://github.com/DgSantos017/sistema-ead-microservice-service-registry/assets/62971277/c3dd5d9b-e75b-440d-8c52-42cf243f5d6a)
@@ -9,13 +9,13 @@ http://localhost:8761/
 ## baseUrl Api Gateway
 http://localhost:8080/
 
-### AUTHUSER
-#### baseUrl
+# AUTHUSER
+## baseUrl
 http://localhost:8080/ead-authuser/
 
 ### registerUser -> auth/signup
 
-getAllUsers -> users
+#### getAllUsers -> users
 getOneUser -> users/userId
 updateUser -> users/userId
 deleteUser -> users/userId
